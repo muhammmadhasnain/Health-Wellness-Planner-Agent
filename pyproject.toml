@@ -1,0 +1,20 @@
+[project]
+name = "health-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hasnain", email = "hasnainpanhwar744@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai-agents>=0.1.0",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.46.1",
+]
+health-agent = "health_agent:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
