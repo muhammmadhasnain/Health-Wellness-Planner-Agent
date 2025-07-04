@@ -1,24 +1,24 @@
-# Health & Wellness Planner Agent
+# 🧠 Health & Wellness Planner Agent
 
-Ye project ek AI-powered Health & Wellness Planner hai jo **OpenAI Agents SDK** par bana gaya hai. Iska maqsad users se natural language mein baat karna, unke health goals samajhna, aur unko personalized diet aur fitness plans dena hai.
-
----
-
-## Features
-
-- Fitness aur diet goals lena (multi-turn conversation)
-- Personalized meal ya workout plan banana
-- User ki progress ya baat ko yaad rakhna (context memory)
-- Real-time chatbot jaisa experience (streamed responses)
-- Valid input/output guardrails
-- Handoff karna Nutrition ya Injury Assistant agent ko
-- Optional: tool usage aur handoffs ka tracking
+This project is an AI-powered **Health & Wellness Planner Agent** built using the **OpenAI Agents SDK**. It interacts with users through natural language, understands their fitness and dietary goals, and provides personalized plans and feedback.
 
 ---
 
-## Technologies
+## 🔍 Features
+
+- Collects fitness and diet goals through conversation
+- Generates personalized plans (e.g. 7-day meal plan, workout routine)
+- Remembers past conversations and user progress (context)
+- Real-time, chatbot-like response streaming
+- Validates input and output with guardrails
+- Supports handoff to expert agents (e.g. Nutrition or Injury Support)
+- (Optional) Tracks tool usage and handoff activity
+
+---
+
+## ⚙️ Technologies Used
 
 - Python 3.10+
 - OpenAI Agents SDK
 - Streamlit (optional UI)
-- Pydantic (output validation)
+- Pydantic (for structured output validation)
